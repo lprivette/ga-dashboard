@@ -1,0 +1,138 @@
+* {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+h1{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 2.5em;
+}
+
+p{
+    font-size: 1em;
+}
+
+.main-row {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#pic {
+    max-width: 250px;
+    max-height: 250px;
+    overflow: hidden;
+}
+
+.card {
+    position:relative;
+    margin:0 0 1em;
+    overflow:hidden;
+    border:1px solid #bbb;
+    border-radius:4px;
+    box-shadow:0 1px 3px rgba(0,0,0,.25);
+    font-size:1rem;background:#fff;color:inherit;
+    height: 12em;
+    width: 20em;
+}
+
+
+
+/*Thumbnail Gallery*/
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+}
+
+.thumb {
+    margin-bottom: 30px;
+    /*max-width: 100%;
+    max-height: 100%;*/
+}
+
+footer {
+    margin: 50px 0;
+}
+
+/*List css*/
+.list {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border: 2px;
+}
+
+
+
+    box-sizing: border-box;
+}
+
+
+.addBtn:hover {
+    background-color: #bbb;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    border: 1px solid #ccc;
+    background: #eee;
+    padding: 5px 10px;
+    color: #000;
+}
+
+/*Dashboard styling*/
+
+:root {
+  --Dashboard-maxWidth: 52em;
+}
+
+.Dashboard {
+  background: #fff;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  max-width: var(--Dashboard-maxWidth);
+  padding: var(--gap);
+}
+
+.Dashboard-header {
+  border-bottom: 1px solid var(--border-color);
+  margin: -var(--gap) -var(--gap) var(--gap);
+  padding: var(--gap);
+}
+
+.Dashboard-footer {
+  border-top: 1px solid var(--border-color);
+  margin: -var(--gap) -var(--gap) var(--gap);
+  padding: var(--gap);
+}
+
+.Dashboard--full {
+  max-width: 100%;
+}
+
+.Dashboard--collapseBottom {
+  padding-bottom: 0;
+}
+
+@media (--break-lg) {
+  .Dashboard {
+    padding: var(--gap-lg);
+  }
+  .Dashboard-header {
+    margin: -var(--gap-lg) -var(--gap-lg) var(--gap-lg);
+    padding: var(--gap-lg);
+  }
+  .Dashboard-footer {
+    margin: -var(--gap-lg) -var(--gap-lg) var(--gap-lg);
+    padding: var(--gap);
+  }
+
+  .Dashboard--collapseBottom {
+    padding-bottom: calc(var(--gap-lg) - var(--gap));
+  }
+}
