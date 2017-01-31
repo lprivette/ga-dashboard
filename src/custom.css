@@ -17,7 +17,7 @@ p{
     clear: both;
 }
 
-#pic {
+.pic {
     max-width: 250px;
     max-height: 250px;
     overflow: hidden;
@@ -135,4 +135,12 @@ li {
   .Dashboard--collapseBottom {
     padding-bottom: calc(var(--gap-lg) - var(--gap));
   }
+}
+
+.navbar-fluid{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
 }
